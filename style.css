@@ -1,0 +1,66 @@
+*{
+    padding: 0pt;
+    margin: 0;
+    text-decoration: blueviolet;
+    list-style: none;
+    box-sizing: border-box;
+ }
+      body{
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          background: url(/adven.jpeg);
+          padding: 20px;
+          text-align: center;
+      }
+      nav{
+          
+          height: 100px;
+          width: 100%;
+          align-items:center;
+          font-size: xx-large;
+          padding: 20px;
+          color: black;
+      }
+     label.active{
+         font-size: 35px;
+         padding: 0%;
+         line-height: 80px;
+         font-weight: bold;
+         text-align: left;
+     }
+    nav ul{
+    float:right
+    margin-righ
+ 
+    }
+    nav ul li{
+        display:inline-block;
+        line-height: 80px;
+        margin: 0 5%;
+    }
+    nav ul li a{
+        color: rgb(10, 10, 10);
+        font-size: 17px;
+        padding: 7px 13px;
+        border-radius: 3px;
+        text-transform: uppercase;
+    }
+      a.active,a:hover{
+          background: rgb(49, 202, 212);
+          transform:  .2s;
+          text-align: center;
+    
+      }
+    ul{
+        position: fixed;
+    background-repeat: no-repeat;
+        width: 100%;
+        height: 100vh;
+        top: 80px;
+        left: 0;
+        text-align: center;
+    }
+    .checkbtn{
+        font-size: 30px;
+        color: white;
+        float: right;
+    }
